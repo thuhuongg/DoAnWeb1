@@ -1,0 +1,23 @@
+/*---------------footer------------------------*/
+
+.footer {
+    height: 100px;
+    border-top: 1px #b2b2b2 dashed;
+    background: url(images/footer_bg.gif) no-repeat bottom;
+}
+
+.left_footer {
+    float: left;
+    padding: 10px 0 0 10px;
+}
+
+.right_footer {
+    float: right;
+    padding: 10px 10px 0 0;
+}
+
+.footer a {
+    text-decoration: none;
+    padding: 0 5px 0 5px;
+    color: #afaeaf;
+}

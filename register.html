@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
+    <script>
+        $(document).ready(function() {
+
+            //Khi bàn phím được nhấn và thả ra thì sẽ chạy phương thức này
+            $("#formDemo").validate({
+                rules: {
+                    username: "required",
+                    pass: {
+                        required: true,
+                        minlength: 6
+                    },
+                    diachi: {
+                        required: true,
+                        minlength: 2
+                    },
+                    phone: {
+                        required: true,
+                        minlength: 10
+                    },
+
+                    email: {
+                        required: true,
+                        email: true
+                    }
+                },
+                messages: {
+                    username: "Please enter username",
+
+
+                    email: {
+                        required: "Please enter email",
+                        email: "Email wrong"
+                    }
+                }
+            });
+        });
+    </script>
+
+    <style>
+        #tblform {
+            font-family: Arial, Helvetica, sans-serif;
+            width: 300px;
+            font-size: 15px;
+            text-align: right;
+            padding: 4px 5px 0 0;
+            color: #333333;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        input {
+            width: 200px;
+        }
+        
+        #registbtn {
+            width: 100px;
+            height: 30px;
+            border: 1px solid #00B4CC;
+            background: #00B4CC;
+            text-align: center;
+            color: #fff;
+            border-radius: 5px 5px 5px 5px;
+            cursor: pointer;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form id="formDemo" name="register" href="#">
+
+        <fieldset>
+            <legend><span style="color:darkblue; font-size:20px ;">Create new account</span></legend>
+            <table id="tblform">
+                <tr>
+                    <td><label>Username:</label></td>
+                    <td><input name="username" type="text" placeholder="Username" required></td>
+                </tr>
+                <tr>
+                    <td> <label>Password:</label></td>
+                    <td><input name="pass" type="text" placeholder="Password" required></td>
+                </tr>
+                <tr>
+                    <td><label>Email:</label></td>
+                    <td><input name="email" type="text" placeholder="Email" required></td>
+                </tr>
+                <tr>
+                    <td><label>Phone:</label></td>
+                    <td><input name="phone" type="text" placeholder="Phone number" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button id="registbtn" type="submit">Register</button>
+                    </td>
+                </tr>
+
+            </table>
+        </fieldset>
+
+
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .example {
+            background-color: #eee;
+            width: 200px;
+            height: 100px;
+            border: 1px dotted black;
+            overflow-y: scroll;
+            /* Add the ability to scroll */
+        }
+        /* Hide scrollbar for Chrome, Safari and Opera */
+        
+        .example::-webkit-scrollbar {
+            display: none;
+        }
+        /* Hide scrollbar for IE and Edge */
+        
+        .example {
+            -ms-overflow-style: none;
+        }
+    </style>
+    <style>
+        /*------------------------------------center content--------------------*/
+        
+        .center_content {
+            width: 900px;
+            padding: 0px 0 0 0;
+            background: url(images/center_bg.gif) repeat-y center;
+        }
+        
+        .left_content {
+            width: 490px;
+            float: left;
+            padding: 20px 0 20px 20px;
+        }
+        
+        .right_content {
+            width: 370px;
+            float: left;
+            padding: 20px 0 20px 20px;
+        }
+        
+        .title {
+            color: #a81f22;
+            padding: 0px;
+            float: left;
+            font-size: 19px;
+            margin: 10px 0 10px 0;
+        }
+        
+        span.title_icon {
+            float: left;
+            padding: 0 5px 0 0;
+        }
+        
+        .prod_title {
+            color: #a81f22;
+            padding: 5px 0 0 15px;
+            font-size: 13px;
+        }
+        
+        a.more {
+            font-style: italic;
+            color: #a81f22;
+            float: right;
+            text-decoration: none;
+            font-size: 11px;
+            padding: 0px 15px 0 0;
+        }
+        
+        .about {
+            width: 337px;
+            clear: both;
+            background: url(images/border.gif) no-repeat bottom center;
+            padding: 0 0 20px 0;
+        }
+        
+        img.right {
+            float: right;
+            padding: 0 0 0 10px;
+        }
+        
+        .right_box {
+            width: 170px;
+            float: left;
+            padding: 10px 0 0 0;
+        }
+        /*--------feat_prod_box-----------*/
+        
+        .feat_prod_box {
+            padding: 10px 0 10px 0;
+            margin: 0 20px 20px 0;
+            border-bottom: 1px #b2b2b2 dashed;
+            clear: both;
+        }
+        
+        .feat_prod_box_details {
+            padding: 10px 0 10px 0;
+            margin: 0 20px 10px 0;
+            clear: both;
+        }
+        
+        .prod_img {
+            float: left;
+            padding: 0 5px 0 0;
+            text-align: center;
+        }
+        
+        .prod_det_box {
+            width: 295px;
+            float: left;
+            padding: 0 0 0 15px;
+            position: relative;
+        }
+        
+        .box_top {
+            width: 295px;
+            height: 9px;
+            background: url(images/box_top.gif) no-repeat center bottom;
+        }
+        
+        .box_center {
+            width: 295px;
+            height: auto;
+            background: url(images/box_center.gif) repeat-y center;
+        }
+        
+        .box_bottom {
+            width: 295px;
+            height: 9px;
+            background: url(images/box_bottom.gif) no-repeat center top;
+        }
+        
+        .new_prod_box {
+            float: left;
+            text-align: center;
+            padding: 10px;
+        }
+        
+        .new_prod_box a {
+            padding: 5px 0 5px 0;
+            color: #b5b5b6;
+            text-decoration: none;
+            display: block;
+        }
+        
+        .new_prod_bg {
+            width: 132px;
+            height: 119px;
+            text-align: center;
+            background: url(images/new_prod_box.gif) no-repeat center;
+            position: relative;
+        }
+        
+        .new_icon {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            z-index: 200;
+        }
+        
+        .special_icon {
+            position: absolute;
+            top: 0px;
+            _top: 6px;
+            right: 2px;
+            z-index: 250;
+        }
+        
+        img.thumb {
+            padding: 10px 0 0 0;
+        }
+        
+        .new_products {
+            clear: both;
+            padding: 0px;
+        }
+        
+        ul.list {
+            clear: both;
+            padding: 10px 0 0 20px;
+            margin: 0px;
+        }
+        
+        ul.list li {
+            list-style: none;
+            padding: 2px 0 2px 0;
+        }
+        
+        ul.list li a {
+            list-style: none;
+            text-decoration: none;
+            color: #000000;
+            background: url(images/left_menu_bullet.gif) no-repeat left;
+            padding: 0 0 0 17px;
+        }
+        
+        ul.list li a:hover {
+            text-decoration: underline;
+        }
+        /* demo */
+        
+        div.demolayout {
+            width: 460px;
+            margin: 0 0 20px 0;
+        }
+        
+        ul.demolayout {
+            list-style-type: none;
+            float: left;
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        ul.demolayout li {
+            margin: 0 10px 0 0;
+            float: left;
+        }
+        
+        .tab {
+            border: 1px #DFDFDF solid;
+            padding: 0 0 25px 0;
+        }
+        
+        ul.demolayout a {
+            float: left;
+            display: block;
+            padding: 5px 25px;
+            border: 1px solid #DFDFDF;
+            border-bottom: 0;
+            color: #666;
+            background: #eee;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        ul.demolayout a:hover {
+            background: #fff;
+        }
+        
+        ul.demolayout a.active {
+            background: #fff;
+            padding-bottom: 5px;
+            cursor: default;
+            color: #931A1D;
+        }
+        
+        .tabs-container {
+            clear: left;
+            padding: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="center_content" class="example">
+        <div class="left_content">
+            <div class="title"><span class="title_icon"><img src="images/bullet1.gif" alt="" /></span>Special gifts</div>
+            <div class="feat_prod_box">
+                <div class="prod_img">
+                    <a href="#"><img src="images/prod1.gif" alt="" border="0" /></a>
+                </div>
+                <div class="prod_det_box"> <span class="special_icon"><img src="images/special_icon.gif" alt="" /></span>
+                    <div class="box_top"></div>
+                    <div class="box_center">
+                        <div class="prod_title">Set quà L'angfarm De Amour, hộp, nhãn cam</div>
+                        <p class="details">Hộp quà L'angfarm De Amour</p>
+                        <p class="details">Độ ngọt vừa phải. An tâm sức khỏe. Hoàn thiện cao cấp</p>
+                        <p class="details">Thuộc L’angfarm, thương hiệu đặc sản Đà Lạt hàng đầu.</p>
+                        <p class="details">Mua hàng online, sản phẩm chính hãng, giao hàng toàn quốc.</p>
+                        <a href="#" class="more">- more details -</a>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="box_bottom"></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="feat_prod_box">
+                <div class="prod_img">
+                    <a href="#"><img src="images/prod2.gif" alt="" border="0" /></a>
+                </div>
+                <div class="prod_det_box"> <span class="special_icon"><img src="images/special_icon.gif" alt="" /></span>
+                    <div class="box_top"></div>
+                    <div class="box_center">
+                        <div class="prod_title">Set quà L'angfarm De Amour, hộp, nhãn cam</div>
+                        <p class="details">Hộp quà L'angfarm De Amour</p>
+                        <p class="details">Độ ngọt vừa phải. An tâm sức khỏe. Hoàn thiện cao cấp</p>
+                        <p class="details">Thuộc L’angfarm, thương hiệu đặc sản Đà Lạt hàng đầu.</p>
+                        <p class="details">Mua hàng online, sản phẩm chính hãng, giao hàng toàn quốc.</p>
+                        <a href="#" class="more">- more details -</a>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="box_bottom"></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="feat_prod_box">
+                <div class="prod_img">
+                    <a href="#"><img src="images/prod1.gif" alt="" border="0" /></a>
+                </div>
+                <div class="prod_det_box"> <span class="special_icon"><img src="images/special_icon.gif" alt="" /></span>
+                    <div class="box_top"></div>
+                    <div class="box_center">
+                        <div class="prod_title">Set quà L'angfarm De Amour, hộp, nhãn cam</div>
+                        <p class="details">Hộp quà L'angfarm De Amour</p>
+                        <p class="details">Độ ngọt vừa phải. An tâm sức khỏe. Hoàn thiện cao cấp</p>
+                        <p class="details">Thuộc L’angfarm, thương hiệu đặc sản Đà Lạt hàng đầu.</p>
+                        <p class="details">Mua hàng online, sản phẩm chính hãng, giao hàng toàn quốc.</p>
+                        <a href="#" class="more">- more details -</a>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="box_bottom"></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="feat_prod_box">
+                <div class="prod_img">
+                    <a href="#"><img src="images/prod2.gif" alt="" border="0" /></a>
+                </div>
+                <div class="prod_det_box"> <span class="special_icon"><img src="images/special_icon.gif" alt="" /></span>
+                    <div class="box_top"></div>
+                    <div class="box_center">
+                        <div class="prod_title">Set quà L'angfarm De Amour, hộp, nhãn cam</div>
+                        <p class="details">Hộp quà L'angfarm De Amour</p>
+                        <p class="details">Độ ngọt vừa phải. An tâm sức khỏe. Hoàn thiện cao cấp</p>
+                        <p class="details">Thuộc L’angfarm, thương hiệu đặc sản Đà Lạt hàng đầu.</p>
+                        <p class="details">Mua hàng online, sản phẩm chính hãng, giao hàng toàn quốc.</p>
+                        <a href="#" class="more">- more details -</a>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="box_bottom"></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+        </div>
+</body>
+
+</html>

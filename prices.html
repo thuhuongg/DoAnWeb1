@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js">
+    </script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script>
+        var app = angular.module("angularApp", [])
+        app.controller("SanPhamController", function($scope, $http) {
+            $http({
+                method: "GET",
+                url: "databaseSanPham.json"
+            }).then(function mySucces(respone) {
+                $scope.sanphams = respone.data
+            }, function myError(respone) {
+                $scope.dataError = respone.statusText
+            })
+        })
+    </script>
+    <style>
+        table a {
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body ng-app="angularApp" ng-controller="SanPhamController">
+
+    <table border="1" cellpadding="0" cellspacing="0" style="width:100%" class="table" align="center">
+
+        <tr>
+            <th>Tên sản phẩm</th>
+            <th>Giá sản phẩm</th>
+
+        </tr>
+        <tr ng-repeat="sp in sanphams">
+            <td>{{sp.TenSP}}
+            </td>
+            <td>{{sp.Gia}}
+            </td>
+
+        </tr>
+    </table>
+</body>
+
+</html>

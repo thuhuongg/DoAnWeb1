@@ -1,0 +1,63 @@
+.center_content {
+    width: 900px;
+    padding: 0px 0 0 0;
+    background: url(images/center_bg.gif) repeat-y center;
+}
+
+.left_content {
+    width: 490px;
+    float: left;
+    padding: 20px 0 20px 20px;
+}
+
+.right_content {
+    width: 370px;
+    float: left;
+    padding: 20px 0 20px 20px;
+}
+
+.title {
+    color: #a81f22;
+    padding: 0px;
+    float: left;
+    font-size: 19px;
+    margin: 10px 0 10px 0;
+}
+
+span.title_icon {
+    float: left;
+    padding: 0 5px 0 0;
+}
+
+.prod_title {
+    color: #a81f22;
+    padding: 5px 0 0 15px;
+    font-size: 13px;
+}
+
+a.more {
+    font-style: italic;
+    color: #a81f22;
+    float: right;
+    text-decoration: none;
+    font-size: 11px;
+    padding: 0px 15px 0 0;
+}
+
+.about {
+    width: 337px;
+    clear: both;
+    background: url(images/border.gif) no-repeat bottom center;
+    padding: 0 0 20px 0;
+}
+
+img.right {
+    float: right;
+    padding: 0 0 0 10px;
+}
+
+.right_box {
+    width: 170px;
+    float: left;
+    padding: 10px 0 0 0;
+}

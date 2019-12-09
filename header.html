@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="styleHeader.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/c7c27e88e1.js" crossorigin="anonymous"></script>
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+        body {
+            background: #f2f2f2;
+            font-family: 'Open Sans', sans-serif;
+            color: #00B4CC;
+        }
+        
+        #menu {
+            position: absolute;
+            float: left;
+        }
+        
+        #menu ul li a {
+            color: #00B4CC;
+        }
+        
+        .search {
+            position: relative;
+            display: flex;
+            margin-left: 200;
+        }
+        
+        .searchTerm {
+            width: 200px;
+            border: 3px solid #00B4CC;
+            border-right: none;
+            padding: 5px;
+            height: 20px;
+            border-radius: 5px 0 0 5px;
+            outline: none;
+            color: #9DBFAF;
+        }
+        
+        .searchTerm:focus {
+            color: #00B4CC;
+        }
+        
+        .searchButton {
+            width: 40px;
+            height: 36px;
+            border: 1px solid #00B4CC;
+            background: #00B4CC;
+            text-align: center;
+            color: #fff;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+            font-size: 20px;
+            background: url(images/search.png) no-repeat;
+        }
+        /*Resize the wrap to see the search bar change!*/
+        
+        .wrap {
+            width: 30%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="menu">
+            <ul>
+                <li><a href="category.html" target="content">Home</a></li>
+
+                <li><a href="category.html" target="content">Products</a></li>
+                <li><a href="prices.html" target="content">Prices</a></li>
+                <li><a href="special.html" target="content">Specials</a></li>
+                <li><a href="account.html" target="content">My account</a></li>
+                <li><a href="index-bs4.html" target="content">Register</a></li>
+
+                <li><a href="about.html" target="content">About us</a></li>
+                <li><a href="contact.html" target="content">Contact</a></li>
+
+
+
+            </ul>
+            <div class="search"><input type="text" class="searchTerm" placeholder="What are you looking for?">
+                <button type="submit" class="searchButton"></button>
+            </div>
+            <div class="cart"></div>
+
+        </div>
+
+    </div>
+
+    <!--
+<div class="search">
+        <input type="text" class="searchTerm" placeholder="What are you looking for?">
+        <button type="submit" class="searchButton">
+              <i class="fa fa-search"></i>
+           </button>
+    </div>
+
+    -->
+
+
+
+
+</body>
+
+</html>
