@@ -5,11 +5,11 @@ $(document).ready(function() {
             "MaSP": "110440",
             "Gia": 52000,
             "ThanhPhan": "Hoa Cúc 92%, Cam Thảo 8%",
-            "KhoiLuong": "40 g (20 túi lọc x 2 g)",
+            "KhoiLuong": "100g (50 túi lọc x 2 g)",
             "HanSD": "24 tháng",
             "HDSD": "Nhúng trà vào tách nước sôi, 1 túi trà / 150 - 200 ml, chờ từ 3 - 5 phút. Dùng làm thức uống giải khát hàng ngày, mỗi ngày dùng từ 3 - 5 túi trà",
             "HDBQ": " Nơi khô ráo, thoáng mát. Tránh ánh nắng mặt trời chiếu trực tiếp",
-            "ImgLink": " "
+            "ImgLink": "images/tracongot.jpg"
 
         },
         {
@@ -21,7 +21,7 @@ $(document).ready(function() {
             "HanSD": "24 tháng",
             "HDSD": "Nhúng trà vào tách nước sôi, 1 túi trà / 150 - 200 ml, chờ từ 3 - 5 phút. Dùng làm thức uống giải khát hàng ngày, mỗi ngày dùng từ 3 - 5 túi trà",
             "HDBQ": " Nơi khô ráo, thoáng mát. Tránh ánh nắng mặt trời chiếu trực tiếp",
-            "ImgLink": " "
+            "ImgLink": "images/trahoacuc.jpg "
 
         },
         {
@@ -39,13 +39,13 @@ $(document).ready(function() {
         {
             "TenSP": "Trà linh chi",
             "MaSP": "110443",
-            "Gia": 54000,
+            "Gia": 260000,
             "ThanhPhan": "Linh chi 80%, Atisô 20% (Thân 15%, lá 5%)",
-            "KhoiLuong": "87 g",
+            "KhoiLuong": "300g",
             "HanSD": "24 tháng",
             "HDSD": "Nhúng trà vào tách nước sôi, 1 túi trà / 150 - 200 ml, chờ từ 3 - 5 phút. Dùng làm thức uống giải khát hàng ngày, mỗi ngày dùng từ 3 - 5 túi trà",
             "HDBQ": "Nơi khô ráo, thoáng mát. Tránh ánh nắng mặt trời chiếu trực tiếp",
-            "ImgLink": " "
+            "ImgLink": "images/tralinhchi.jpg "
 
         },
         {
@@ -53,11 +53,11 @@ $(document).ready(function() {
             "MaSP": "110444",
             "Gia": 37000,
             "ThanhPhan": "Cám Trà Xanh 100%",
-            "KhoiLuong": "40 g (20 túi lọc x 2 g)",
+            "KhoiLuong": "50g (25 túi lọc x 2 g)",
             "HanSD": "24 tháng",
             "HDSD": "Nhúng trà vào tách nước sôi, 1 túi trà / 150 - 200 ml, chờ từ 3 - 5 phút. Dùng làm thức uống giải khát hàng ngày",
             "HDBQ": "Nơi khô ráo, thoáng mát. Tránh ánh nắng mặt trời chiếu trực tiếp",
-            "ImgLink": " "
+            "ImgLink": "images/traxanh.jpg"
 
         },
         {
@@ -69,7 +69,7 @@ $(document).ready(function() {
             "HanSD": "24 tháng",
             "HDSD": " Nhúng trà vào tách nước sôi, 1 túi trà / 150 - 200 ml, chờ từ 3 - 5 phút. Dùng làm thức uống giải khát hàng ngày, mỗi ngày dùng từ 3 - 5 túi trà",
             "HDBQ": "Nơi khô ráo, thoáng mát. Tránh ánh nắng mặt trời chiếu trực tiếp",
-            "ImgLink": " "
+            "ImgLink": "images/trahathuo.jpg "
 
         },
         {
@@ -77,23 +77,23 @@ $(document).ready(function() {
             "MaSP": "110446",
             "Gia": 35000,
             "ThanhPhan": "Gừng Củ 100%",
-            "KhoiLuong": "40 g (20 túi lọc x 2 g)",
+            "KhoiLuong": "10 g (10 túi lọc x 1 g)",
             "HanSD": "24 tháng",
             "HDSD": "Nhúng trà vào tách nước sôi, 1 túi trà / 150 - 200 ml, chờ từ 3 - 5 phút. Dùng làm thức uống giải khát hàng ngày, mỗi ngày dùng từ 3 - 5 túi trà",
             "HDBQ": "Nơi khô ráo, thoáng mát. Tránh ánh nắng mặt trời chiếu trực tiếp",
-            "ImgLink": " "
+            "ImgLink": "images/tragung.jpg "
 
         },
         {
-            "TenSP": "Trà khổ",
+            "TenSP": "Trà khổ qua",
             "MaSP": "110447",
             "Gia": 43000,
             "ThanhPhan": "Trái Khổ Qua 100%",
-            "KhoiLuong": "40 g (20 túi lọc x 2 g)",
+            "KhoiLuong": "50 g (25 túi lọc x 2 g)",
             "HanSD": "12 tháng",
             "HDSD": "Nhúng trà vào tách nước sôi, 1 túi trà / 150 - 200 ml, chờ từ 3 - 5 phút. Dùng làm thức uống giải khát hàng ngày, mỗi ngày dùng từ 3 - 5 túi trà",
             "HDBQ": "Nơi khô ráo, thoáng mát. Tránh ánh nắng mặt trời chiếu trực tiếp",
-            "ImgLink": " "
+            "ImgLink": "images/trakhoqua.jpg "
 
         },
         {
@@ -101,11 +101,11 @@ $(document).ready(function() {
             "MaSP": "110448",
             "Gia": 57000,
             "ThanhPhan": "Đảng Sâm 80%, Tam Thất 20%",
-            "KhoiLuong": "40 g (20 túi lọc x 2 g)",
+            "KhoiLuong": "300 g (100 gói x 3 g)",
             "HanSD": "24 tháng",
             "HDSD": "Nhúng trà vào tách nước sôi, 1 túi trà / 150 - 200 ml, chờ từ 3 - 5 phút. Dùng làm thức uống giải khát hàng ngày, mỗi ngày dùng từ 3 - 5 túi trà",
             "HDBQ": "Nơi khô ráo, thoáng mát. Tránh ánh nắng mặt trời chiếu trực tiếp",
-            "ImgLink": " "
+            "ImgLink": "images/trasam.jpg "
 
         },
         {
@@ -117,43 +117,43 @@ $(document).ready(function() {
             "HanSD": "24 tháng",
             "HDSD": "Nhúng trà vào tách nước sôi, 1 túi trà / 150 - 200 ml, chờ từ 3 - 5 phút. Dùng làm thức uống giải khát hàng ngày, mỗi ngày dùng từ 3 - 5 túi trà",
             "HDBQ": "Nơi khô ráo, thoáng mát. Tránh ánh nắng mặt trời chiếu trực tiếp",
-            "ImgLink": " "
+            "ImgLink": "images/traraubap.jpg "
 
         },
         {
-            "TenSP": "Trà Trà oolong",
+            "TenSP": "Trà oolong",
             "MaSP": "110449",
             "Gia": 39000,
             "ThanhPhan": "Cám Trà Oolong 100%",
-            "KhoiLuong": "40 g (20 túi lọc x 2 g)",
+            "KhoiLuong": "50 g (25 túi lọc x 2 g)",
             "HanSD": "24 tháng",
             "HDSD": "Nhúng trà vào tách nước sôi, 1 túi trà / 150 - 200 ml, chờ từ 3 - 5 phút. Dùng làm thức uống giải khát hàng ngày, mỗi ngày dùng từ 3 - 5 túi trà",
             "HDBQ": "Nơi khô ráo, thoáng mát. Tránh ánh nắng mặt trời chiếu trực tiếp",
-            "ImgLink": " "
+            "ImgLink": "images/traolong.jpg "
 
         },
         {
-            "TenSP": "Trà Trà xanh",
+            "TenSP": "Trà xanh Lipton",
             "MaSP": "110450",
-            "Gia": 65000,
-            "ThanhPhan": "Cám Trà Xanh 100%",
-            "KhoiLuong": "80 g (40 túi lọc x 2 g)",
+            "Gia": 85000,
+            "ThanhPhan": "100% trà xanh",
+            "KhoiLuong": "75 g (50 túi lọc x 1,5 g)",
             "HanSD": "24 tháng",
             "HDSD": "Nhúng trà vào tách nước sôi, 1 túi trà / 150 - 200 ml, chờ 3 - 5 phút. Dùng làm thức uống giải khát hàng ngày",
             "HDBQ": "Bảo quản nơi khô ráo, thoáng mát. Tránh ánh nắng mặt trời chiếu trực tiếp. Luôn giữ sản phẩm kín khí khi không sử dụng",
-            "ImgLink": " "
+            "ImgLink": "images/traxanhlipton.jpg "
 
         },
         {
-            "TenSP": "Trà Trà oolong",
+            "TenSP": "Trà giảo cổ lan ",
             "MaSP": "110451",
-            "Gia": 72000,
-            "ThanhPhan": "Cám Trà Oolong 100%",
-            "KhoiLuong": "80 g (40 túi lọc x 2 g)",
+            "Gia": 26000,
+            "ThanhPhan": "Lá, thân giảo cổ lam (90%), cỏ ngọt",
+            "KhoiLuong": "40 g (20 túi lọc x 2 g)",
             "HanSD": "24 tháng",
-            "HDSD": "Nhúng trà vào tách nước sôi, 1 túi trà / 150 - 200 ml, chờ 3 - 5 phút. Dùng làm thức uống giải khát hàng ngày",
+            "HDSD": "Cho một túi lọc dành cho một người uống vào cốc hoặc ấm. Đổ nước sôi và đợi từ 4 – 5 phút. Có thể cho thêm đường, uống nóng lạnh tùy thích",
             "HDBQ": "Bảo quản nơi khô ráo, thoáng mát. Tránh ánh nắng mặt trời chiếu trực tiếp. Luôn giữ sản phẩm kín khí khi không sử dụng",
-            "ImgLink": " "
+            "ImgLink": "images/tragiaocolan.jpg"
 
         },
         {
@@ -165,7 +165,7 @@ $(document).ready(function() {
             "HanSD": "12 tháng",
             "HDSD": "Lắc cho đều trà và hoa. Hãm trà theo cách thức sau: Lượng trà: 3 g; Lượng nước: 300 ml; Nhiệt độ nước: 85°C; Thời gian hãm: 3 - 5 phút",
             "HDBQ": "Bảo quản nơi khô ráo, thoáng mát. Tránh ánh nắng mặt trời chiếu trực tiếp. Luôn giữ sản phẩm kín khí khi không sử dụng",
-            "ImgLink": " "
+            "ImgLink": "images/trasenchalai.jpg "
 
         },
         {
@@ -177,7 +177,7 @@ $(document).ready(function() {
             "HanSD": "12 tháng",
             "HDSD": "Lắc cho đều trà và hoa. Hãm trà theo cách thức sau: Lượng trà: 3 g; Lượng nước: 300 ml; Nhiệt độ nước: 85°C; Thời gian hãm: 3 - 5 phút",
             "HDBQ": "Bảo quản nơi khô ráo, thoáng mát. Tránh ánh nắng mặt trời chiếu trực tiếp. Luôn giữ sản phẩm kín khí khi không sử dụng",
-            "ImgLink": " "
+            "ImgLink": "images/trasenchahoacuc.jpg "
 
         },
         {
@@ -189,31 +189,31 @@ $(document).ready(function() {
             "HanSD": "12 tháng",
             "HDSD": "Lắc cho đều trà và hoa. Hãm trà theo cách thức sau: Lượng trà: 3 g; Lượng nước: 300 ml; Nhiệt độ nước: 85°C; Thời gian hãm: 3 - 5 phút",
             "HDBQ": "Bảo quản nơi khô ráo, thoáng mát. Tránh ánh nắng mặt trời chiếu trực tiếp. Luôn giữ sản phẩm kín khí khi không sử dụng",
-            "ImgLink": " "
+            "ImgLink": "images/trasenchahoahong.jpg "
 
         },
         {
-            "TenSP": "Trà Trà gừng hoà tan",
+            "TenSP": "Trà gừng hoà tan",
             "MaSP": "110455",
             "Gia": 79000,
             "ThanhPhan": "Gừng Lát 60%, Đường Glucose 40%",
-            "KhoiLuong": "22 túi x 12 g",
+            "KhoiLuong": "10 túi x 10 g ",
             "HanSD": "24 tháng",
             "HDSD": "Cho 1 gói trà vào cốc, hòa tan bằng nước sôi khoảng 150 - 200 ml. Khuấy đều cho tan trước khi sử dụng",
             "HDBQ": "Nơi khô ráo, thoáng mát. Tránh ánh nắng mặt trời chiếu trực tiếp",
-            "ImgLink": " "
+            "ImgLink": "images/tragungcom.jpg "
 
         },
         {
             "TenSP": "Nước cốt dâu tằm",
             "MaSP": "110456",
-            "Gia": 43000,
-            "ThanhPhan": "Trái Dâu Tằm 60%, Đường Tinh Luyện, Acid Ascorbic, Acid Citric, Natri Benzoate",
-            "KhoiLuong": "250 ml",
+            "Gia": 69000,
+            "ThanhPhan": "Quả dâu tằm (40-50%), đường mía (40%), pectin quả, preservative (202), nước",
+            "KhoiLuong": "350 ml",
             "HanSD": "12 tháng",
-            "HDSD": "Dùng làm thức uống giải khát. Pha với nước theo tỉ lệ 1:2 - 1:3. Ngon hơn khi uống với đá",
-            "HDBQ": "Nơi khô ráo, thoáng mát. Tránh ánh nắng mặt trời trực tiếp. Đậy kín nắp chai khi không sử dụng",
-            "ImgLink": " "
+            "HDSD": "Lắc đều trước khi sử dụng. Pha với nước theo tỉ lệ 1:2 - 1:3. Ngon hơn khi uống với đá",
+            "HDBQ": "Bảo quản nơi khô ráo, thoáng mát. Tránh ánh nắng trực tiếp từ mặt trời. Nên bảo quản trong ngăn mát tử lạnh sau khi mở nắp",
+            "ImgLink": "images/cotdautam.jpg "
 
         },
         {
@@ -225,7 +225,7 @@ $(document).ready(function() {
             "HanSD": "6 tháng",
             "HDSD": "Dùng làm thức uống giải khát. Pha với nước theo tỉ lệ 1:2 - 1:3. Ngon hơn khi uống với đá",
             "HDBQ": "Nơi khô ráo, thoáng mát. Tránh ánh nắng mặt trời trực tiếp. Đậy kín nắp chai khi không sử dụng",
-            "ImgLink": " "
+            "ImgLink": "images/phucbontu.jpg "
 
         },
         {
@@ -237,7 +237,7 @@ $(document).ready(function() {
             "HanSD": "12 tháng",
             "HDSD": "Pha 2 g cao atisô với nước ấm cho 1 lần uống. Tốt nhất uống giữa 2 bữa ăn hoặc cách bữa ăn 30 phút. Sử dụng 2 - 3 lần mỗi ngày. Có thể thêm đường hoặc mật ong để làm tăng thêm hương vị",
             "HDBQ": "Nơi khô ráo thoáng mát. Tránh ánh nắng mặt trời chiếu trực tiếp vào sản phẩm",
-            "ImgLink": " "
+            "ImgLink": "images/caoatiso.jpg "
 
         },
         {
@@ -247,7 +247,7 @@ $(document).ready(function() {
             "HanSD": "6 tháng",
             "HDSD": "Nhúng trà vào tách nước sôi, 1 túi trà / 150 - 200 ml, chờ 3 - 5 phút. Dùng làm thức uống giải khát hàng ngày",
             "HDBQ": "Nơi khô ráo, thoáng mát. Tránh ánh nắng mặt trời chiếu trực tiếp",
-            "ImgLink": " "
+            "ImgLink": "images/setqua1.jpg "
 
         },
         {
@@ -257,7 +257,7 @@ $(document).ready(function() {
             "HanSD": "6 tháng",
             "HDSD": "Nhúng trà vào tách nước sôi, 1 túi trà / 150 - 200 ml, chờ 3 - 5 phút. Dùng làm thức uống giải khát hàng ngày",
             "HDBQ": "Nơi khô ráo, thoáng mát. Tránh ánh nắng mặt trời chiếu trực tiếp",
-            "ImgLink": " "
+            "ImgLink": "images/setqua2.jpg "
 
         },
         {
@@ -276,8 +276,10 @@ $(document).ready(function() {
         var list = $('#storeList ul'),
             listItem = $('<li/>'),
             html = listItem.append($('<h3/>').text(this.TenSP));
+        var img = ($('<img />').attr('src', this.ImgLink).text(this.TenSP));
 
-        listItem.append($('<img />').attr('src', this.ImgLink).text(this.TenSP));
+
+        listItem.append(img);
 
         list.append(html)
 
