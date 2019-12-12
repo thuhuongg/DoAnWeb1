@@ -271,17 +271,43 @@ $(document).ready(function() {
 
         }
     ]
-    $('#storeList').append('<ul/>')
+    $('#list1').append('<ul/>')
     $.each(dbsp, function() {
         var list = $('#storeList ul'),
             listItem = $('<li/>'),
             html = listItem.append($('<h3/>').text(this.TenSP));
         var img = ($('<img />').attr('src', this.ImgLink).text(this.TenSP));
-
+        var br = ($('<br>'))
+        var btn = ($('<button />').attr('type', 'button').text('Add to cart').attr('class', 'btn btn-primary btn-sm').attr('data-toggle', 'modal').attr('data-target', '#myModal'));
+        //<button id="btn" type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+        //Add to cart
+        //</button>
 
         listItem.append(img);
+        listItem.append(br)
+        listItem.append(btn);
 
         list.append(html)
+
+    });
+
+    $('#list2').append('<ul/>')
+    $.each(dbsp, function() {
+        var list1 = $('#storeList ul'),
+            listItem1 = $('<li/>'),
+            html1 = listItem.append($('<h3/>').text(this.TenSP));
+        var img1 = ($('<img />').attr('src', this.ImgLink).text(this.TenSP));
+        var br1 = ($('<br>'))
+        var btn1 = ($('<button />').attr('type', 'button').text('Add to cart').attr('class', 'btn btn-primary btn-sm').attr('data-toggle', 'modal').attr('data-target', '#myModal'));
+        //<button id="btn" type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+        //Add to cart
+        //</button>
+
+        listItem.append(img1);
+        listItem.append(br1)
+        listItem.append(btn1);
+
+        list.append(html1)
 
     });
 });
