@@ -14,6 +14,13 @@
         #btn {
             width: 400px;
         }
+        
+        body {
+            background-color: #F2ECB6;
+            background: url(images/bg.jpg) fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
     </style>
     <style>
         .input-number-group {
@@ -132,23 +139,8 @@
         </div>
         <!-- /.modal -->
 
-        <div class="card" style="width:400px">
-            <img class="card-img-top" src="images/setqua1.jpg" alt="Card image" style="width:100%">
-            <div class="card-body">
-                <h4>Set quà L'angfarm De Amour, hộp, nhãn cam</h4>
-                <h4 class="card-title">Price: $300</h4>
 
-                <p class="card-text">Hộp quà L'angfarm De Amour</p>
-                <p class="card-text">Độ ngọt vừa phải. An tâm sức khỏe. Hoàn thiện cao cấp</p>
-                <p class="card-text">Thuộc L’angfarm, thương hiệu đặc sản Đà Lạt hàng đầu.</p>
-                <p class="card-text">Mua hàng online, sản phẩm chính hãng, giao hàng toàn quốc.</p>
-
-            </div>
-        </div>
-        <button id="btn" type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-                Add to cart
-              </button><br><br>
-        <div class="card" style="width:400px">
+        <div class="card" style="width:400px" id="left">
             <img class="card-img-top" src="images/setqua2.jpg" alt="Card image" style="width:100%">
             <div class="card-body">
                 <h4>Set quà L'angfarm De Amour, hộp, nhãn xanh</h4>
@@ -165,7 +157,7 @@
                         Add to cart
                       </button><br><br>
 
-        <div class="card" style="width:400px">
+        <div class="card" style="width:400px" id="right">
             <img class="card-img-top" src="images/setqua3.jpg" alt="Card image" style="width:100%">
             <div class="card-body">
                 <h4>Set quà L'angfarm De Amour, hộp, nhãn đen </h4>
